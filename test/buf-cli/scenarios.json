@@ -2,14 +2,16 @@
     "latest": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "buf-cli": {}
+            "buf-cli": {
+                "version": "latest"
+            }
         }
     },
     "specific-version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "buf-cli": {
-                "version": "1.20.0"
+                "version": "1.29.0"
             }
         }
     }
