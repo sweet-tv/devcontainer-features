@@ -1,0 +1,16 @@
+{
+    "name": "Go Migrate CLI",
+    "id": "golang-migrate",
+    "version": "1.0.0",
+    "description": "Installs the golang-migrate CLI tool for database migrations",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of golang-migrate CLI to install. Use 'latest' for the most recent release, or a specific version like 'v4.16.2'."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

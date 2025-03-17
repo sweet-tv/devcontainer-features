@@ -1,0 +1,16 @@
+{
+    "latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "golang-migrate": {}
+        }
+    },
+    "specific-version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "golang-migrate": {
+                "version": "v4.15.2"
+            }
+        }
+    }
+}
