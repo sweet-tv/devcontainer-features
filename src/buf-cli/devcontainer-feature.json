@@ -1,0 +1,16 @@
+{
+    "name": "Buf CLI",
+    "id": "buf-cli",
+    "version": "1.0.0",
+    "description": "Installs the Buf CLI, a tool for working with Protocol Buffers",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of Buf CLI to install. Use 'latest' for the most recent version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
