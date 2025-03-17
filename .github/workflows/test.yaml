@@ -15,6 +15,7 @@ jobs:
         features:
           - color
           - hello
+          - buf-cli
         baseImage:
           - debian:latest
           - ubuntu:latest
