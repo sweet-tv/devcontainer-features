@@ -16,6 +16,7 @@ jobs:
           - color
           - hello
           - buf-cli
+          - golang-migrate
         baseImage:
           - debian:latest
           - ubuntu:latest
